@@ -8,6 +8,10 @@ import servicesPhotography from "./desktop/image-photography.jpg";
 import testimonialImage01 from "./image-emily.jpg";
 import testimonialImage02 from "./image-thomas.jpg";
 import testimonialImage03 from "./image-jennie.jpg";
+import galleryImage01 from "./desktop/image-gallery-milkbottles.jpg";
+import galleryImage02 from "./desktop/image-gallery-orange.jpg";
+import galleryImage03 from "./desktop/image-gallery-cone.jpg";
+import galleryImage04 from "./desktop/image-gallery-sugarcubes.jpg";
 
 export {
   logo,
@@ -20,4 +24,8 @@ export {
   testimonialImage01,
   testimonialImage02,
   testimonialImage03,
+  galleryImage01,
+  galleryImage02,
+  galleryImage03,
+  galleryImage04,
 };
