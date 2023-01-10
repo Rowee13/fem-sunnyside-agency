@@ -3,8 +3,8 @@ import { links } from "../constants";
 
 const Navbar = () => {
   return (
-    <div className="bg-desaturated-cyan w-full flex justify-between items-center px-10 py-8">
-      <img src={logo} alt="sunnyside logo" />
+    <nav className="absolute top-0 inset-x-0 flex justify-between items-center px-10 py-8 bg-transparent z-10">
+      <img src={logo} alt="sunnyside logo" className="h-8" />
 
       <div className="flex flex-row items-center">
         <ul className="flex flex-row font-barlow text-white">
@@ -15,11 +15,11 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <button className="bg-white px-7 py-4 rounded-full font-fraunces uppercase font-extrabold">
+        <button className="bg-white px-7 py-4 rounded-full font-fraunces uppercase font-extrabold hover:bg-opacity-30 hover:text-white">
           Contact
         </button>
       </div>
-    </div>
+    </nav>
   );
 };
 

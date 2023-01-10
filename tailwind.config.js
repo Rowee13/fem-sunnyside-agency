@@ -19,6 +19,9 @@ module.exports = {
         barlow: ["Barlow", "sans-serif"],
         fraunces: ["Fraunces", "serif"],
       },
+      // backgroundImage: {
+      //   "hero-image-desktop": "url('../assets/desktop/image-header.jpg)",
+      // },
     },
   },
   plugins: [],

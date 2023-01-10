@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
-import HeroImage from "./desktop/image-header.jpg";
+import heroImage from "./desktop/image-header.jpg";
+import arrowDown from "./icon-arrow-down.svg";
 
-export { logo, HeroImage };
+export { logo, heroImage, arrowDown };
