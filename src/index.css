@@ -18,3 +18,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.about-transform-btn::after {
+  width: 100%;
+  height: 8px;
+  display: block;
+  background-color: hsl(51, 100%, 49%);
+  opacity: 40%;
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  left: -6px;
+  z-index: -1;
+}
+
+.about-transform-btn:hover:after {
+  opacity: 100%;
+}
+
+.about-standout-btn::after {
+  width: 100%;
+  height: 8px;
+  display: block;
+  background-color: hsl(7, 99%, 70%);
+  opacity: 40%;
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  left: -6px;
+  z-index: -1;
+}
+
+.about-standout-btn:hover:after {
+  opacity: 100%;
+}
