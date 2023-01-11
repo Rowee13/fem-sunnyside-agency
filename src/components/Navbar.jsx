@@ -28,7 +28,7 @@ const Navbar = () => {
         </a>
       </div>
 
-      <div className="">
+      <div className="lg:hidden">
         {toggleMenu ? (
           <IoClose
             className="w-10 h-10 text-white"
@@ -41,6 +41,25 @@ const Navbar = () => {
           />
         )}
       </div>
+      {toggleMenu && (
+        <div className="slide-menu absolute left-10 right-10 top-32 flex flex-col items-center justify-center bg-white p-10">
+          <div className="absolute right-0 top-[-40px] w-10 h-10 border-t-[40px] border-t-transparent border-r-[40px] border-r-white " />
+          <ul className="flex flex-col items-center justify-center font-barlow text-desaturated-blue gap-y-7">
+            {links.map((link) => (
+              <li key={link.id} className="font-barlow text-xl">
+                <a href={`#${link.id}`}>{link.title}</a>
+              </li>
+            ))}
+          </ul>
+
+          <a
+            href="#footer"
+            className="bg-yellow px-7 py-4 mt-8 rounded-full font-fraunces uppercase font-extrabold hover:bg-opacity-30 hover:text-white"
+          >
+            Contact
+          </a>
+        </div>
+      )}
     </nav>
   );
 };

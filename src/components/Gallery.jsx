@@ -8,7 +8,7 @@ import {
 const Gallery = () => {
   return (
     <section id="projects">
-      <div className="grid grid-cols-2 lg:grid-cols-4 grid-rows-2 lg:grid-flow-row">
+      <div className="grid grid-cols-2 lg:grid-cols-4 lg:grid-flow-row">
         <img src={galleryImage01} alt="milk bottles" />
         <img src={galleryImage02} alt="orange" />
         <img src={galleryImage03} alt="cone" />

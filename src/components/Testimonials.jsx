@@ -16,7 +16,7 @@ const TestimonialCard = ({
       alt="customer img"
       className="w-20 h-20 rounded-full mb-14"
     />
-    <p className="font-extrabold text-xl lg:text-lg text-dark-grayish-blue">
+    <p className="font-extrabold text-lg text-dark-grayish-blue px-5">
       {testimonial}
     </p>
     <h3 className="font-fraunces font-black text-lg pt-14">{customerName}</h3>
@@ -30,7 +30,7 @@ const Testimonials = () => {
       id="testimonial"
       className="flex flex-col items-center justify-center py-20 lg:py-36"
     >
-      <h1 className="font-fraunces text-xl text-dark-grayish-blue uppercase tracking-[0.2em] pb-20">
+      <h1 className="font-fraunces text-xl text-dark-grayish-blue uppercase tracking-widest lg:tracking-[0.2em] pb-20">
         Client Testimonials
       </h1>
       <div className="flex flex-col lg:flex-row gap-y-20">
