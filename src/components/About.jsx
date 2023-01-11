@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="about">
       <div className="flex flex-col-reverse lg:flex-row w-full">
-        <div className="flex flex-col items-center lg:items-start justify-center py-24 lg:p-36 text-center lg:text-left">
+        <div className="flex flex-col items-center lg:items-start justify-center py-24 lg:p-36 text-center lg:text-left w-full lg:w-1/2">
           <h1 className="font-fraunces font-black text-4xl pb-8 px-6 lg:px-0 lg:pr-8">
             Transform your brand
           </h1>
@@ -29,7 +29,7 @@ const About = () => {
           alt="about us - stand out"
           className="w-full lg:w-1/2"
         />
-        <div className="flex flex-col items-center lg:items-start justify-center py-24 lg:p-36 text-center lg:text-left">
+        <div className="flex flex-col items-center lg:items-start justify-center py-24 lg:p-36 text-center lg:text-left w-full lg:w-1/2">
           <h1 className="font-fraunces font-black text-4xl pb-8 px-6 lg:px-0 lg:pr-8">
             Stand out to the right audience
           </h1>

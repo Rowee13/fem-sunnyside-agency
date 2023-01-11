@@ -7,12 +7,15 @@ import {
 
 const Services = () => {
   return (
-    <section id="services" className="flex flex-col lg:flex-row">
+    <section
+      id="services"
+      className="grid grid-cols-1 md:grid-cols-2 grid-flow-row"
+    >
       <div className="relative">
         <img
           src={servicesGraphicDesign}
           alt="graphic design service"
-          className="hidden lg:block"
+          className="hidden lg:block w-full"
         />
         <img
           src={servicesGraphicMobile}
@@ -34,7 +37,7 @@ const Services = () => {
         <img
           src={servicesPhotography}
           alt="photography service"
-          className="hidden lg:block"
+          className="hidden lg:block w-full"
         />
         <img
           src={servicesPhotoMobile}

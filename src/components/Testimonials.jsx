@@ -16,7 +16,7 @@ const TestimonialCard = ({
       alt="customer img"
       className="w-20 h-20 rounded-full mb-14"
     />
-    <p className="font-extrabold text-lg text-dark-grayish-blue px-5">
+    <p className="font-extrabold text-lg text-dark-grayish-blue px-5 lg:px-0">
       {testimonial}
     </p>
     <h3 className="font-fraunces font-black text-lg pt-14">{customerName}</h3>

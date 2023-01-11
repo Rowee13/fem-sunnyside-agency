@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav className="absolute top-0 inset-x-0 flex justify-between items-center px-10 py-8 bg-transparent z-10">
-      <img src={logo} alt="sunnyside logo" className="h-7 lg:h-8" />
+      <img src={logo} alt="sunnyside logo" className="h-7 md:h-8" />
 
       <div className="hidden lg:flex flex-row items-center">
         <ul className="flex flex-row font-barlow text-white">
