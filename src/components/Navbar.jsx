@@ -1,15 +1,20 @@
+import { useState } from "react";
+import { IoMenuOutline, IoClose } from "react-icons/io5";
+
 import { logo } from "../assets";
 import { links } from "../constants";
 
 const Navbar = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
+
   return (
     <nav className="absolute top-0 inset-x-0 flex justify-between items-center px-10 py-8 bg-transparent z-10">
-      <img src={logo} alt="sunnyside logo" className="h-8" />
+      <img src={logo} alt="sunnyside logo" className="h-7 lg:h-8" />
 
-      <div className="flex flex-row items-center">
+      <div className="hidden lg:flex flex-row items-center">
         <ul className="flex flex-row font-barlow text-white">
           {links.map((link) => (
-            <li key={link.id} className="pr-14">
+            <li key={link.id} className="pr-14 hover:text-dark-blue">
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
@@ -21,6 +26,20 @@ const Navbar = () => {
         >
           Contact
         </a>
+      </div>
+
+      <div className="">
+        {toggleMenu ? (
+          <IoClose
+            className="w-10 h-10 text-white"
+            onClick={() => setToggleMenu(!toggleMenu)}
+          />
+        ) : (
+          <IoMenuOutline
+            className="w-10 h-10 text-white"
+            onClick={() => setToggleMenu(!toggleMenu)}
+          />
+        )}
       </div>
     </nav>
   );

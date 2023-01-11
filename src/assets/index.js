@@ -14,6 +14,11 @@ import galleryImage02 from "./desktop/image-gallery-orange.jpg";
 import galleryImage03 from "./desktop/image-gallery-cone.jpg";
 import galleryImage04 from "./desktop/image-gallery-sugarcubes.jpg";
 
+//? ===================== mobile images ===================== ?//
+import heroImageMobile from "./mobile/image-header.jpg";
+import servicesGraphicMobile from "./mobile/image-graphic-design.jpg";
+import servicesPhotoMobile from "./mobile/image-photography.jpg";
+
 export {
   logo,
   logoFooter,
@@ -30,4 +35,8 @@ export {
   galleryImage02,
   galleryImage03,
   galleryImage04,
+  //? mobile images
+  heroImageMobile,
+  servicesGraphicMobile,
+  servicesPhotoMobile,
 };

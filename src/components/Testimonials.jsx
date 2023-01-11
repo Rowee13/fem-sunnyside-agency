@@ -10,13 +10,15 @@ const TestimonialCard = ({
   customerName,
   title,
 }) => (
-  <div className="flex flex-col items-center justify-center font-barlow text-center max-w-sm px-8">
+  <div className="flex flex-col items-center justify-center font-barlow text-center max-w-sm px-5">
     <img
       src={customerImage}
       alt="customer img"
       className="w-20 h-20 rounded-full mb-14"
     />
-    <p>{testimonial}</p>
+    <p className="font-extrabold text-xl lg:text-lg text-dark-grayish-blue">
+      {testimonial}
+    </p>
     <h3 className="font-fraunces font-black text-lg pt-14">{customerName}</h3>
     <p className="text-grayish-blue">{title}</p>
   </div>
@@ -26,12 +28,12 @@ const Testimonials = () => {
   return (
     <section
       id="testimonial"
-      className="flex flex-col items-center justify-center py-36"
+      className="flex flex-col items-center justify-center py-20 lg:py-36"
     >
       <h1 className="font-fraunces text-xl text-dark-grayish-blue uppercase tracking-[0.2em] pb-20">
         Client Testimonials
       </h1>
-      <div className="flex flex-row">
+      <div className="flex flex-col lg:flex-row gap-y-20">
         <TestimonialCard
           customerImage={testimonialImage01}
           testimonial="We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit."
