@@ -4,5 +4,6 @@ import About from "./About";
 import Services from "./Services";
 import Testimonials from "./Testimonials";
 import Gallery from "./Gallery";
+import Footer from "./Footer";
 
-export { Navbar, Hero, About, Services, Testimonials, Gallery };
+export { Navbar, Hero, About, Services, Testimonials, Gallery, Footer };

@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import logoFooter from "./logo-footer.svg";
 import heroImage from "./desktop/image-header.jpg";
 import arrowDown from "./icon-arrow-down.svg";
 import aboutTransfrom from "./desktop/image-transform.jpg";
@@ -15,6 +16,7 @@ import galleryImage04 from "./desktop/image-gallery-sugarcubes.jpg";
 
 export {
   logo,
+  logoFooter,
   heroImage,
   arrowDown,
   aboutTransfrom,

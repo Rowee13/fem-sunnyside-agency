@@ -7,14 +7,14 @@ import {
 
 const Gallery = () => {
   return (
-    <div>
+    <section id="projects">
       <div className="flex flex-row w-full">
         <img src={galleryImage01} alt="milk bottles" className="w-3/12" />
         <img src={galleryImage02} alt="orange" className="w-3/12" />
         <img src={galleryImage03} alt="cone" className="w-3/12" />
         <img src={galleryImage04} alt="sugar cubes" className="w-3/12" />
       </div>
-    </div>
+    </section>
   );
 };
 

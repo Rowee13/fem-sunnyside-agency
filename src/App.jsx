@@ -5,20 +5,19 @@ import {
   Services,
   Testimonials,
   Gallery,
+  Footer,
 } from "./components";
 
 function App() {
   return (
     <div className="w-full relative">
-      <div>
-        <Navbar />
-      </div>
-
+      <Navbar />
       <Hero />
       <About />
       <Services />
       <Testimonials />
       <Gallery />
+      <Footer />
     </div>
   );
 }

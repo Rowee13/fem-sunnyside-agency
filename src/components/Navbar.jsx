@@ -10,14 +10,17 @@ const Navbar = () => {
         <ul className="flex flex-row font-barlow text-white">
           {links.map((link) => (
             <li key={link.id} className="pr-14">
-              <a href="/">{link.title}</a>
+              <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>
 
-        <button className="bg-white px-7 py-4 rounded-full font-fraunces uppercase font-extrabold hover:bg-opacity-30 hover:text-white">
+        <a
+          href="#footer"
+          className="bg-white px-7 py-4 rounded-full font-fraunces uppercase font-extrabold hover:bg-opacity-30 hover:text-white"
+        >
           Contact
-        </button>
+        </a>
       </div>
     </nav>
   );
